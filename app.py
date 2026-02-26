@@ -44,7 +44,7 @@ async def create_feedback(feedback: Feedback):
     feedbacks.append(feedback)
     
     return {
-        "message": f"Feedback received. Thank you, {feedback.name}."
+        "message": f"Спасибо, {feedback.name}! Ваш отзыв сохранён."
     }
 
 @app.get("/feedbacks")
